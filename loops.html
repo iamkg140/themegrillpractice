@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Loop in Javascript</h2>
+
+<p id="main"></p>
+
+<script>
+const fruits = ["apple", "orange", "papaya", "grapes", "mango"];
+
+let text = "";
+for (let i = 0; i < fruits.length; i++) {
+  text += fruits[i] + "<br>";
+}
+
+document.getElementById("main").innerHTML = text;
+</script>
+
+</body>
+</html>
